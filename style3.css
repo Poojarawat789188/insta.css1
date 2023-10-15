@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body, button, input{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+div,header,nav,footer{
+    border: 0 solid #000;
+    box-sizing: border-box;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+input{
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    padding: 9px 0 7px 8px;
+    outline: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+ .button-box{
+    display: block;
+    position: relative;
+    margin: 8px 40px;
+} 
+.btn{ 
+    width: 100%;
+    padding:  0 8px;
+    background: #3897f0;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 28px;
+    outline: none;
+
+}
+.text{
+    text-align: center;
+    margin-top: 12px;
+    color: #003569;
+    line-height: 14px;
+}
+.forget{
+    font-size: 12px;
+    margin: 15px;
+    color: #003569;
+    line-height: 14px;
+}
+.footer{
+    /* background-color: #fafafa; */
+    order: 5;
+    padding: 0 20px;
+    /* background: #efefef; */
+
+}
+.footer-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: #fafafa; */
+    justify-content: space-between;
+    padding: 38px 0;
+    max-width: 935px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    text-transform: uppercase;
+    width: 100%
+    
+}
+.footer-nav ul li{
+    max-width: 100%;
+    
+}
+.footer-nav ul {
+    margin-right: 16px;
+    margin-bottom: 3px;
+    flex-grow: 1;
+
+}
+.footer-nav ul li{
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 7%;
+}
+/* .footer-nav ul li a{
+    color: #003569;
+    text-decoration: none;
+} */
+
+a,footer,form,h1,label,li,span,ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px; /* Adjust this value to control the maximum width of the container */
+    width: 100%;
+}
+
+
+
